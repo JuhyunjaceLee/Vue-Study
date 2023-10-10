@@ -27,7 +27,7 @@ export default {
     },
     contents: {
       type: String,
-      required: true,
+      // required: true,
     },
     badge: {
       type: String,
@@ -39,6 +39,9 @@ export default {
     isLike: {
       type: Boolean,
       default: false,
+    },
+    post: {
+      type: Object,
     },
   },
   emits: ["toggleLike"],
